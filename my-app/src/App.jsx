@@ -24,7 +24,7 @@ function App() {
   {/* <Login/>   */}
   {/* <Todolist/> */}
   {/* <Signup/> */}
-  <Timer/>
+  {/* <Timer/> */}
   </>
   )
 }
