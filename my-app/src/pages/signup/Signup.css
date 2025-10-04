@@ -1,0 +1,33 @@
+#signupbox{
+    height: 100%;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items:center;}
+
+#signupcon{
+    height: 55%;
+    width: 35%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3%;
+    border-radius: 15px;
+
+}
+
+.signupint{
+    width: 60%;
+    height: 7%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#signupbutton{
+    width: 30%;
+    height: 8%;
+    background-color: rgb(7, 7, 51);
+    color: white;
+    border-radius: 10px;
+}

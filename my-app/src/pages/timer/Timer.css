@@ -1,0 +1,19 @@
+#timerbox{
+    height: 100%;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items:center;}
+
+#timercon{
+    height: 55%;
+    width: 35%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3%;
+    border-radius: 15px;
+
+}

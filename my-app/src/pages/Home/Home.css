@@ -1,0 +1,152 @@
+ .bigcontainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1%;
+    justify-content: space-around;
+    align-items: center;
+    height:55% ;
+    width: 60%;
+ }
+ #container{
+    display: flex;
+    justify-content:top;
+    align-items: center;
+    background-color: #fcfdc8;
+    border: 2px solid ;
+    height: 100%;
+    width: 65%;
+    flex-direction: column;
+    row-gap: 10%;
+    border: 4px solid #395a7f;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 2px #395a7f;
+}
+.intro{
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 8%;
+    width: 100%;
+    height: 30%;
+    
+}
+h1{
+    color: #ff914d;
+    font-family: "New Rocker", system-ui;
+    font-size: 250%;
+    margin: 0;
+}
+
+.smallcontainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color:#fcfdc8;
+}
+
+.box{
+    padding: o;
+    margin: 0;
+    width: 20%;
+    height: 100%;
+    background-color: beige;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1%;
+    border: 2px solid #395a7f;
+    cursor: pointer;
+    
+}
+
+.box:hover{
+    background-color: #395a7f;
+    transition: 0.5s ease-out;
+    color: white;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+h4{
+     font-family: "Poiret One", sans-serif;
+     margin: 0;
+}
+
+.suggestbox{
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 3%;
+}
+
+#contactcontainer{
+    height: 60%;
+    width: 25%;
+    background-color: #f9cde8;
+     display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1%;
+    border-radius: 25px;
+    padding-bottom: 20px;
+}
+
+.homeint{
+    height: 35px;
+    border-radius: 10px;
+    border:2px solid #395a7f;
+}
+
+.homebutton{
+    height: 35px;
+    width: 180px;
+    background-color: #997ba6;
+    border-radius: 10px;
+    
+}
+
+.homebutton:hover{
+     background-color: #d8c6e0;
+}
+
+#contacttext{
+    width: 100%;
+    background-color: #997ba6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+}
+
+#hometext{
+    width: 100%;
+    background-color: #395a7f;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: white;
+    height: 25%;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+#contactspan{
+    right: 15px;
+    position: absolute;
+    font-size: larger;
+    cursor: pointer;
+}

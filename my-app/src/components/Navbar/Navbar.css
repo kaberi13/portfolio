@@ -1,0 +1,44 @@
+.nav{
+background-color: #cadeed;
+display: flex;
+justify-content:space-between;
+flex-direction: row;
+column-gap: 20px;
+align-items: center;
+top: 0;
+width: 100dvw;
+height: 8%;
+
+}
+
+.pfplogo , .menulogo , .searchlogo{
+    height: 40px;
+}
+
+#burgermenu{
+    height: 30%;
+    width: 12%;
+    background-color: #fcfdc8;
+    line-height: 250%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:translate(0,26%) ;
+    border-bottom-right-radius:500px ;
+    
+    
+}
+ul{
+    list-style: none;
+    cursor: pointer;
+}
+
+.menulist{
+    font-weight: bold;
+ 
+}
+
+.menulist:hover{
+    color:#ff914d ;
+}
+
