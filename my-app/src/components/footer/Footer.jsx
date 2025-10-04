@@ -1,5 +1,5 @@
 import Wave from 'react-wavify'
-import './Footer.css'
+import '../../components/footer/Footer.css'
 function Footer(){
     return(
         

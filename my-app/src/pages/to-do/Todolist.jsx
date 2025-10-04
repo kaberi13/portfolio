@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Todolist.css'
+import '../../pages/to-do/Todolist.css'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import { useNavigate } from 'react-router-dom'

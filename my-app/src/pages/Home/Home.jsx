@@ -1,7 +1,7 @@
 
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer';
-import './Home.css'
+import '../../pages/Home/Home.css'
 import contact from '../../assets/contact.svg'
 import link from '../../assets/links.svg'
 import projects from '../../assets/work.svg'

@@ -1,4 +1,4 @@
-import './Navbar.css'
+import '../../components/Navbar/Navbar.css'
 import profile from '../../assets/pfp.svg'
 import menu from '../../assets/menu.svg'
 import search from '../../assets/search.svg'
